@@ -61,8 +61,11 @@ export class AuthController {
     @Request() request: Express.Request,
     @Res() response: Express.Response,
   ) {
+    console.log(Passport);
     return new Promise((resolve, reject) => {
       Passport.authenticate('signup', { session: false }, (err, user: any) => {
+        console.log(err);
+        // console.log(user);
         if (err) {
           reject(err)
           return

@@ -16,7 +16,7 @@ services:
     environment:
       - ENV=development
       - POSTGRES_HOST=db
-      - WEB3_PROVIDER_URI=http://web3-provider:8545
+      - WEB3_PROVIDER_URI=https://ropsten.infura.io/
       - STR_TOKEN_ADDRESS=
     depends_on:
       - db
@@ -32,7 +32,7 @@ services:
   db:
     image: postgres
     ports:
-      - "5432:5432"
+      - "5433:5433"
     env_file:
       - ./postgres.env
     volumes:

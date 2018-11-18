@@ -11,7 +11,7 @@ const cn = {
   database: POSTGRES_DB,
   host: POSTGRES_HOST,
   password: POSTGRES_PASS,
-  port: 5432,
+  port: 5433,
   user: POSTGRES_USER,
 }
 
@@ -23,6 +23,7 @@ const addOrUpdateRow = async <T>(query: pgPromise.TQuery, newRow: T): Promise<T>
 }
 
 export async function postgresdbExists() {
+  console.log(postgresdb)
   try {
     const obj = await postgresdb.connect()
     obj.done()

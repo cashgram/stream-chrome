@@ -6,10 +6,10 @@
   "description": "Earn cryptocurrency from your live streaming channel.",
   "version": "0.0.14",
 
-  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwGOcmNEqOX8drCFizeka8vK+zMaV+aHAKw4z0+YYSiBRNSd2ZzE7MHMayRvNzSlJOweltfjEMFm0VCJG5cgwDn63lg7FBDaBEo4C20UJolCmFPKPi7giA+huNI2XH5/A0DB+JFjdPJbb10OAXZoXDonPEpL08m5Ew5Qieb0LpYNRj1bAON6r+shTaIebEmUEzd8oNpYTCTN1JfdjIZuKxqfUWsHvg6JZBGZZwyDwC+3EO5TVWs6byc0fATV79U51vjCYJgyfTpzntmk+x4/VsX4zBrvDPwc5fOUtmCBUhQzlaeJQR25GSxU8UPNhdvCpA6Eyd2TqiOkGnAOLqJidzQIDAQAB",
+  "key": "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC4sC7GMKTPN+KYKe+MIZq7CmFYJGUXOWfeBEDLETl5S0smfGur6S/ELzW9a79NHIM6fOKknr7ow6ILrgffCxoYxGWX1lmzEwFNI7V9YlZyxfw2WLhDILuxraw8jMwL5kkZbUFnPZAdZePexP5VCvMVOoIDugLuKfQTGXImba3/rpwFZU6k5Lxy3XTtGXmXJqsov1gM06vSA54moBHyrNrRp1VI3YSoyhxb6FPUfTg9CaueT9Ca8p6VxcrtboJre8wI7oUWA/XCG9Vgt9TMBEMTGbA192eRUjzwwLEk5l1ejS3Hcab7Duk5csfGydM8XNASMNQyA+TZx/I7Nar1XXMfAgMBAAECggEAIqu4bC5PkjMMj8I3nRfl4z0EnzZd3+k/7Xbg7v4xyupuli//SouBExRFw2SJyiETJZSyO3MtpaasMgMeqSl9Ya7k34c22Z40vVV5yar/TZaLTWyEUt2/PpC657cKyyUVDffrskTlXA93oqdak351ucN9CtQNnsYzcq5xNnOamYfNSgOlm2rRy4Cve5Ga0SjXNFaRnY0fYkzwLXi3/12Kuecf1OnHQzSevedaLGwyIyuGz7E3x/9cc0lGOWvXoU/hyHErhYjXMtLwP3ewefC1KLNROmcePK6TuPwxfPabBMLiS+1KXPX9MNbOrB2THvO8l6KyVWVHfzx11KZWLXdzyQKBgQDe+lUiEMHYUMfs9v3lgl9wfBfXO1y8EXnKBzJehFIek6asofDRgm6bwHG/6dIhwMrfzncibl9ViB+ghlE49+21GATnA/kx6YJGAeS3aGX6hMhKc7gsXIFMrHl4NjsXtGxiXYguALno2E5GiiP4Gdqnr4hK06vMj/TjOgI1F675GwKBgQDUCjDJvVkSEgKomo0Oj8KfgYYwzykNxOa/M8fkvn7QeqPXEuJgGw+olteFNcxOc3ip0/c8xDMktY3UnjZhVe9ID9WJ30NeP3iumDws220yCINWiH9uZeKYl1hhC/bzcd2QHXORm/Xym7I3jsA2+FVuIDZtMVLlJw4m2Sm/J9PyTQKBgCVR7tfRyDAFbUDrIhm81W6FRpQ+mknb/u9ifvq02O3HNrlkLWNTmmG1NxSw9PuzQgFtlCEOKiStsOV0Nbn8PSv3RjLIRnglJinDfV15OsBQYxma/rNmFDoaEAafxQo1p4JbN0TD2FnxgkBqNJT89szkI0Kq5PFLEujJN79dJGsLAoGBAMMaNVYLYb+cztFwk8YIRV4bAew7UV0YBfF8pbs2BN2zWrn06FLh04CeeuRZYgn1edtZ7C3/ocdvPneatBLPzYIS/7sCsaww3sxXy1bC+DCHYMHoish7+wnIiEuThMDvzpxiXQpn5OA8nrk8ImTyDzlrbmj+b3Xmf8EDJMR80yopAoGBANZPWI9MhWcRoFS0V8czZ7TjXKzzza2hVIhR7kGtXRMP+kyYLARUM/qjnDp/vkU7GaJFArOe4e7vPKrnYK+8eBJGE1CJ8MmuSpe3LQByzZdE1yfvXY5rOdOR7zh6Bju0Xx/rE5kZc1/TDTMMN9nHbpkTpfnI29XuOaDCEIKE8FOy",
 
   "oauth2": {
-    "client_id": "721553825210-jsgk5c1uu6klhts3mhn3i04iba7ckc6g.apps.googleusercontent.com",
+    "client_id": "513732783985-3ppbb5np6u3bik9cnhmjvsvku5o7dtjr.apps.googleusercontent.com",
     "scopes": [
       "https://www.googleapis.com/auth/youtube.readonly"
     ]
@@ -76,7 +76,7 @@
     }
   ],
 
-  "content_security_policy": "script-src 'self' https://www.google-analytics.com https://cdn.segment.com https://cdn.mxpnl.com https://cdn.heapanalytics.com https://d24n15hnbwhuhn.cloudfront.net; object-src 'self'",
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://cdn.segment.com https://cdn.mxpnl.com https://cdn.heapanalytics.com https://d24n15hnbwhuhn.cloudfront.net; object-src 'self'",
 
   "web_accessible_resources": [
     "js/*.js",

@@ -2,14 +2,14 @@ import { BigNumber } from 'bignumber.js'
 import { PlatformModels, tables, TxModels } from 'shared/dist/models'
 import * as Errors from 'shared/dist/models/Errors/TxErrors'
 import { StrTokenUtils } from 'shared/dist/str'
-import * as HDWalletProvider from 'truffle-hdwallet-provider'
+const HDWalletProvider = require("truffle-hdwallet-provider");
 import { Service } from 'ts-express-decorators'
 import { BadRequest } from 'ts-httpexceptions'
 import Web3 = require('web3')
 import { GAS, GAS_PRICE, STR_TOKEN_ADDRESS, STREAM_HOT_WALLET_ADDRES, WEB3_PROVIDER_URI } from '../config'
 import { MNEMONIC } from '../config'
 import * as postgres from '../db/postgres'
-import genUuid from '../utils/genUuid'
+import genUuid from '../utils/genUuid';
 
 export const FAKE_ESCROW_STREAM_USER: tables.users = {
   id: null,
@@ -28,11 +28,15 @@ export const FAKE_ESCROW_STREAM_USER: tables.users = {
 
 @Service()
 export class TxService {
-  public web3: Web3
+  public web3: any
   public strToken: StrTokenUtils.ISTRTokenImplementation
 
   constructor() {
+    console.log("******************");
+    console.log(MNEMONIC);
+    console.log(WEB3_PROVIDER_URI);
     this.web3 = new Web3(new HDWalletProvider(MNEMONIC, WEB3_PROVIDER_URI))
+    // // console.log(this.web3)
     this.strToken = StrTokenUtils.getStrToken(this.web3, STR_TOKEN_ADDRESS)
   }
 

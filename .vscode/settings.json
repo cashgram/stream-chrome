@@ -7,7 +7,7 @@
   "tslint.enable": true,
   "tslint.configFile": "./tslint.json",
   "tslint.autoFixOnSave": true,
-  "window.zoomLevel": -1,
+  "window.zoomLevel": 0,
   "workbench.activityBar.visible": true,
   "editor.minimap.enabled": false,
   "extensions.ignoreRecommendations": false,

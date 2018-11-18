@@ -5,7 +5,7 @@ function readFromFileIfExists(filePath): string {
     return undefined
   }
 
-  const untrimmed = fs.readFileSync(filePath, { encoding: 'utf8' })
+  const untrimmed = fs.readFileSync(filePath, { encoding: 'utf8' });
   return untrimmed.trimRight()
 }
 
@@ -33,12 +33,12 @@ export const GOOGLE_REDIRECT_URI = process.env.GOOGLE_REDIRECT_URI
 
 export const MNEMONIC = readFromFileIfExists(process.env.MNEMONIC)
 
-export const INFURA_ACCESS_TOKEN = process.env.INFURA_ACCESS_TOKEN
+export const INFURA_ACCESS_TOKEN = readFromFileIfExists(process.env.INFURA_ACCESS_TOKEN)
 export const WEB3_PROVIDER_URI = INFURA_ACCESS_TOKEN ?
 `${process.env.WEB3_PROVIDER_URI}/${INFURA_ACCESS_TOKEN}` : process.env.WEB3_PROVIDER_URI
 
 export const STREAM_HOT_WALLET_ADDRES = process.env.STREAM_HOT_WALLET_ADDRESS
-export const STR_TOKEN_ADDRESS = process.env.STR_TOKEN_ADDRESS
+export const STR_TOKEN_ADDRESS = "0x7875489bD580F7CCfbA0830A965cb4faa80cfB98"
 
 export const GAS = parseInt(process.env.GAS, 10)
 export const GAS_PRICE = parseInt(process.env.GAS_PRICE, 10)

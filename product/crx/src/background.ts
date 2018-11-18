@@ -25,6 +25,7 @@ export const TXS_DATA_POLLING_INTERVAL = 5000
 
 export function setupAnalytics() {
   const myWindow = window as WindowInterface
+  // console.log(SEGMENT_WRITE_KEY);
   myWindow.analytics = Analytics({ writeKey: SEGMENT_WRITE_KEY })
   Raven.config(SENTRY_URI).install()
 }

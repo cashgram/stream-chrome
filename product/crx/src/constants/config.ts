@@ -1,6 +1,7 @@
 export const BACKGROUND_POPUP_PORT_NAME = 'stream'
 export const CONTENT_BACKGROUND_PORT_NAME = 'stream_content'
-export const BASE_URL = __PRODUCTION__ ? 'https://staging.streamtoken.net/api/v1' : 'http://lvh.me:5000/api/v1'
+// export const BASE_URL = 'https://staging.streamtoken.net/api/v1'
+export const BASE_URL = __PRODUCTION__ ? 'https://staging.streamtoken.net/api/v1' : 'http://localhost:5000/api/v1'
 
 export const TWITCH_CLIENT_ID = process.env.TWITCH_CLIENT_ID
 
